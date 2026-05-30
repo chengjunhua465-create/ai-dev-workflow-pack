@@ -1,0 +1,1 @@
+{"mcpServers":{"database":{"command":"npx","args":["-y","@anthropic/mcp-server-database"],"env":{"DATABASE_URL":"${DATABASE_URL}"}}}}

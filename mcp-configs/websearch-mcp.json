@@ -1,0 +1,1 @@
+{"mcpServers":{"websearch":{"command":"npx","args":["-y","@anthropic/mcp-server-web-search"],"env":{"SERPER_API_KEY":"${SERPER_API_KEY}"}}}}
