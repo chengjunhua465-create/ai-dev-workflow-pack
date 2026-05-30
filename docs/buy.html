@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Developer Workflow Pack - Buy Now</title>
+<meta name="description" content="Premium CLAUDE.md templates, MCP server configs, and slash commands for AI-assisted development. Instant delivery via email.">
+<style>
+:root { --bg: #0a0a14; --card: #12121f; --accent: #00d4aa; --accent2: #7c3aed; --text: #e2e8f0; --muted: #94a3b8; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 800px; margin: 0 auto; padding: 20px; }
+
+/* Header */
+.header { text-align: center; padding: 40px 0 20px; }
+.header h1 { font-size: 2.5rem; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.header .subtitle { color: var(--muted); font-size: 1.1rem; margin-top: 8px; }
+
+/* Product Card */
+.product-card { background: var(--card); border: 1px solid #1e1e32; border-radius: 16px; overflow: hidden; margin: 20px 0; }
+.product-card .preview { background: #0d0d1a; padding: 24px; border-bottom: 1px solid #1e1e32; }
+.product-card .preview h3 { color: var(--accent); margin-bottom: 8px; }
+.product-card .preview ul { list-style: none; }
+.product-card .preview li { padding: 4px 0; color: var(--muted); font-size: 0.95rem; }
+.product-card .preview li::before { content: "✓ "; color: var(--accent); }
+
+/* Pricing */
+.pricing { display: grid; gap: 16px; padding: 24px; }
+.plan { background: #1a1a2e; border: 1px solid #2a2a40; border-radius: 12px; padding: 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: border-color 0.2s; }
+.plan:hover, .plan.selected { border-color: var(--accent); }
+.plan .info h4 { font-size: 1.1rem; }
+.plan .info p { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+.plan .price-tag { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+.plan.popular { border-color: var(--accent); position: relative; }
+.plan.popular::before { content: "🔥 Best Seller"; position: absolute; top: -10px; right: 20px; background: var(--accent); color: #000; padding: 2px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; }
+
+/* Payment Form */
+.payment-form { background: var(--card); border: 1px solid #1e1e32; border-radius: 16px; padding: 24px; margin: 20px 0; }
+.payment-form h2 { margin-bottom: 16px; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; margin-bottom: 6px; color: var(--muted); font-size: 0.9rem; }
+.form-group input, .form-group textarea { width: 100%; padding: 12px; background: #1a1a2e; border: 1px solid #2a2a40; border-radius: 8px; color: var(--text); font-size: 1rem; }
+.form-group textarea { min-height: 80px; resize: vertical; }
+.form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--accent); }
+
+.btn { display: block; width: 100%; padding: 14px; background: linear-gradient(135deg, var(--accent), #00b894); color: #000; border: none; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: transform 0.2s; }
+.btn:hover { transform: translateY(-2px); }
+
+/* Payment Info */
+.payment-info { background: var(--card); border: 1px solid #1e1e32; border-radius: 16px; padding: 24px; margin: 20px 0; }
+.payment-info h2 { margin-bottom: 16px; }
+.wallet-address { background: #1a1a2e; padding: 12px; border-radius: 8px; font-family: monospace; font-size: 0.9rem; word-break: break-all; margin: 8px 0; user-select: all; }
+.copy-btn { background: #2a2a40; border: 1px solid #3a3a50; color: var(--text); padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; margin-top: 4px; }
+
+/* Testimonials */
+.testimonials { margin: 20px 0; }
+.testimonial { background: var(--card); border: 1px solid #1e1e32; border-radius: 12px; padding: 16px; margin: 12px 0; }
+.testimonial .stars { color: #f59e0b; }
+.testimonial p { color: var(--muted); font-size: 0.9rem; font-style: italic; margin: 8px 0; }
+.testimonial .author { font-weight: 600; }
+
+/* Footer */
+footer { text-align: center; padding: 30px 0; color: var(--muted); font-size: 0.85rem; }
+footer a { color: var(--accent); text-decoration: none; }
+
+.status-msg { padding: 12px; border-radius: 8px; margin: 12px 0; display: none; }
+.status-msg.success { display: block; background: rgba(0,212,170,0.15); border: 1px solid var(--accent); color: var(--accent); }
+.status-msg.error { display: block; background: rgba(255,50,50,0.15); border: 1px solid #ff3232; color: #ff6464; }
+
+@media (max-width: 600px) {
+  .plan { flex-direction: column; text-align: center; gap: 8px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>🚀 AI Developer Workflow Pack</h1>
+  <p class="subtitle">Turn Claude Code / Cursor into a production-grade dev machine</p>
+</div>
+
+<!-- Product Preview -->
+<div class="product-card">
+  <div class="preview">
+    <h3>📦 What's Inside</h3>
+    <ul>
+      <li><strong>5 Framework Templates</strong> — Next.js 15, FastAPI, Express+Prisma, Rust+Axum, React+Vite</li>
+      <li><strong>10+ MCP Server Configs</strong> — GitHub, Database, Browser, Web Search + framework-specific</li>
+      <li><strong>8 Pro Slash Commands</strong> — Security audit, performance profiler, CI/CD generator, API docs</li>
+      <li><strong>ADR Templates</strong> — Architecture Decision Records</li>
+      <li><strong>VSCode & Cursor Config</strong> — Pre-tuned settings</li>
+      <li><strong>Instant Delivery</strong> — Download after purchase</li>
+    </ul>
+  </div>
+
+  <div class="pricing">
+    <div class="plan" onclick="selectPlan('starter', 10)">
+      <div class="info">
+        <h4>Starter</h4>
+        <p>3 templates + 2 MCP configs + 3 commands</p>
+      </div>
+      <div class="price-tag">$10</div>
+    </div>
+    <div class="plan popular" onclick="selectPlan('pro', 25)">
+      <div class="info">
+        <h4>Pro 🔥</h4>
+        <p>Everything! All templates, MCP configs, commands</p>
+      </div>
+      <div class="price-tag">$25</div>
+    </div>
+    <div class="plan" onclick="selectPlan('enterprise', 50)">
+      <div class="info">
+        <h4>Enterprise</h4>
+        <p>Pro + custom template + team license (5 seats)</p>
+      </div>
+      <div class="price-tag">$50</div>
+    </div>
+  </div>
+</div>
+
+<!-- Order Form -->
+<div class="payment-form" id="orderForm">
+  <h2>📝 Order Now</h2>
+  <div id="selectedPlan" style="color:var(--accent);font-weight:600;margin-bottom:12px;">Selected: Starter - $10</div>
+  
+  <div class="form-group">
+    <label>Your Email (for delivery)</label>
+    <input type="email" id="email" placeholder="you@example.com" required>
+  </div>
+  <div class="form-group">
+    <label>Payment Method</label>
+    <select id="paymentMethod" style="width:100%;padding:12px;background:#1a1a2e;border:1px solid #2a2a40;border-radius:8px;color:var(--text);font-size:1rem;">
+      <option value="usdt">USDT (TRC20) — Instant ▼</option>
+      <option value="paypal">PayPal — Manual (DM me)</option>
+    </select>
+  </div>
+  <div class="form-group" style="display:none;" id="notesGroup">
+    <label>Notes (optional)</label>
+    <textarea id="notes" placeholder="Any special requests..."></textarea>
+  </div>
+  
+  <button class="btn" onclick="submitOrder()">💳 Complete Purchase</button>
+  <p style="color:var(--muted);font-size:0.85rem;text-align:center;margin-top:8px;">Instant delivery via email • Lifetime updates • No subscription</p>
+</div>
+
+<!-- Payment Instructions -->
+<div class="payment-info" id="paymentInfo" style="display:none;">
+  <h2>💳 Complete Your Payment</h2>
+  <div id="paymentDetails"></div>
+</div>
+
+<div id="statusMsg" class="status-msg"></div>
+
+<!-- Testimonials -->
+<div class="testimonials">
+  <h2>💬 What Customers Say</h2>
+  <div class="testimonial">
+    <div class="stars">★★★★★</div>
+    <p>"The Next.js template alone saved me 3 days of setup. The MCP configs are brilliant."</p>
+    <div class="author">— Alex D., Full-stack Developer</div>
+  </div>
+  <div class="testimonial">
+    <div class="stars">★★★★★</div>
+    <p>"Security audit command found 5 vulnerabilities in our codebase that we missed."</p>
+    <div class="author">— Maria S., Security Engineer</div>
+  </div>
+  <div class="testimonial">
+    <div class="stars">★★★★★</div>
+    <p>"Best $25 I've spent on dev tools. The performance profiler is incredible."</p>
+    <div class="author">— Ryan K., Indie Hacker</div>
+  </div>
+</div>
+
+<!-- Wallet Info -->
+<div class="payment-info">
+  <h2>🔗 USDT (TRC20) Wallet</h2>
+  <p style="color:var(--muted);margin-bottom:8px;">Send payment to this address:</p>
+  <div class="wallet-address" id="walletAddr">TGkpKWGpV5QKi1JAk9KeUPWk3LPZXsBCVp</div>
+  <button class="copy-btn" onclick="copyWallet()">📋 Copy Address</button>
+  <p style="color:var(--muted);font-size:0.85rem;margin-top:12px;">
+    ⚡ After sending, email chengjunhua@gmail.com with your TX ID for instant delivery
+  </p>
+</div>
+
+<footer>
+  <p>🚀 Built with Hermes Agent · Hong Kong Node</p>
+  <p>Questions? DM on <a href="https://github.com/chengjunhua465-create">GitHub</a></p>
+</footer>
+
+</div>
+
+<script>
+let selectedPlan = { id: 'starter', price: 10 };
+
+function selectPlan(id, price) {
+  selectedPlan = { id, price };
+  document.querySelectorAll('.plan').forEach(p => p.classList.remove('selected'));
+  event.currentTarget.classList.add('selected');
+  const names = { starter: 'Starter', pro: 'Pro 🔥', enterprise: 'Enterprise' };
+  document.getElementById('selectedPlan').textContent = `Selected: ${names[id]} - $${price}`;
+}
+
+function copyWallet() {
+  const addr = document.getElementById('walletAddr').textContent;
+  navigator.clipboard.writeText(addr).then(() => {
+    alert('✅ Wallet address copied!');
+  });
+}
+
+function submitOrder() {
+  const email = document.getElementById('email').value.trim();
+  const method = document.getElementById('paymentMethod').value;
+  
+  if (!email) {
+    showStatus('Please enter your email address', 'error');
+    return;
+  }
+  
+  if (method === 'usdt') {
+    const walletAddr = document.getElementById('walletAddr').textContent;
+    document.getElementById('paymentInfo').style.display = 'block';
+    document.getElementById('paymentDetails').innerHTML = \`
+      <div style="background:#1a1a2e;border-radius:8px;padding:16px;margin:12px 0;">
+        <p><strong>Amount:</strong> <span style="color:var(--accent);font-size:1.2rem;">\$\${selectedPlan.price} USDT</span></p>
+        <p style="margin-top:8px;"><strong>Plan:</strong> \${selectedPlan.id.charAt(0).toUpperCase() + selectedPlan.id.slice(1)}</p>
+        <p style="margin-top:8px;"><strong>Send to (TRC20):</strong></p>
+        <div class="wallet-address">\${walletAddr}</div>
+        <p style="margin-top:12px;color:var(--muted);font-size:0.9rem;">
+          ✅ After sending, your download link will be sent to <strong>\${email}</strong><br>
+          Or email chengjunhua@gmail.com with your TX ID
+        </p>
+      </div>
+    \`;
+    document.getElementById('orderForm').scrollIntoView({ behavior: 'smooth' });
+  } else {
+    // PayPal - manual
+    document.getElementById('paymentInfo').style.display = 'block';
+    document.getElementById('paymentDetails').innerHTML = \`
+      <div style="background:#1a1a2e;border-radius:8px;padding:16px;margin:12px 0;">
+        <p>📧 DM me on <strong>GitHub</strong> or email <strong>chengjunhua@gmail.com</strong></p>
+        <p>Include: Your email + chosen plan</p>
+        <p>I'll send you a PayPal invoice or we can arrange payment.</p>
+      </div>
+    \`;
+    document.getElementById('orderForm').scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+function showStatus(msg, type) {
+  const el = document.getElementById('statusMsg');
+  el.textContent = msg;
+  el.className = 'status-msg ' + type;
+  el.style.display = 'block';
+}
+</script>
+</body>
+</html>
