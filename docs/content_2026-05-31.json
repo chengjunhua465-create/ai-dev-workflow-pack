@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-31",
+  "reddit_posts": [
+    {
+      "subreddit": "r/r_claudecode",
+      "title": "I built production CLAUDE.md templates for Next.js, FastAPI, Rust \u2014 free on GitHub",
+      "body": "I got tired of rewriting CLAUDE.md files for every new project, so I created a reusable pack.\n\nWhat's inside:\n\u2022 5 framework templates (Next.js 15, FastAPI, Express+Prisma, Rust+Axum, React+Vite)\n\u2022 10+ MCP server configurations (GitHub, Database, Browser, etc.)\n\u2022 8 Python slash commands (security audit, performance profiler, CI/CD generator)\n\nFree on GitHub: https://github.com/chengjunhua465-create/ai-dev-workflow-pack\nPro version ($25): all MCP configs + all commands + custom templates\n\nBuilt from Hong Kong with low latency to global dev tools. Happy to answer questions!",
+      "link": "https://github.com/chengjunhua465-create/ai-dev-workflow-pack"
+    },
+    {
+      "subreddit": "r/r_sideproject",
+      "title": "Ship a SaaS MVP in one weekend with these AI dev templates (free download)",
+      "body": "I put together a pack of CLAUDE.md templates that make Claude Code/Cursor write production-grade code from day one.\n\nThe templates cover the full stack for each framework \u2014 database setup, auth, payments, testing, deployment.\n\n5 templates included:\n\u2022 Next.js 15 + Prisma + Stripe + Auth\n\u2022 FastAPI + SQLAlchemy + Alembic\n\u2022 Express + Prisma + Docker\n\u2022 Rust + Axum + SQLx \n\u2022 React + Vite + TanStack Router\n\nFree on GitHub: https://github.com/chengjunhua465-create/ai-dev-workflow-pack\n\nNo subscription. Just works. Built from Hong Kong \ud83d\ude80",
+      "link": "https://github.com/chengjunhua465-create/ai-dev-workflow-pack"
+    }
+  ],
+  "twitter_threads": [
+    "I've been using Claude Code daily and kept rewriting my CLAUDE.md files. So I built a reusable pack instead. \ud83e\uddf5",
+    "The AI Developer Workflow Pack includes:\n\ud83d\udccb 5 framework templates\n\ud83d\udd0c 10+ MCP server configs\n\u26a1 8 pro slash commands\n\ud83d\udcdd ADR templates + VSCode configs\n\nAll optimized for Claude Code / Cursor.",
+    "Framework templates cover:\n\u2192 Architecture & folder structure\n\u2192 Code conventions & rules\n\u2192 Testing patterns\n\u2192 Commands reference\n\nDrop one in your project and your AI instantly understands your full stack.",
+    "Slash commands that ship with it:\n\ud83d\udee1\ufe0f Security audit (OWASP Top 10)\n\ud83d\udcca Performance profiler\n\ud83d\udcd6 API docs generator\n\ud83d\udd04 CI/CD pipeline creator\n\ud83d\udce6 Dependency auditor\n\ud83d\udcd0 Code metrics analyzer",
+    "Free starter on GitHub:\nhttps://github.com/chengjunhua465-create/ai-dev-workflow-pack\n\nPro ($25 lifetime):\nEverything + all MCP configs + all commands\n\nBuilt from Hong Kong \ud83c\udded\ud83c\uddf0\ud83d\ude80"
+  ],
+  "hackernews": {
+    "title": "Show HN: Production CLAUDE.md templates for Claude Code and Cursor",
+    "body": "Show HN: AI Developer Workflow Pack \u2014 production templates for Claude Code\n\nI've been using Claude Code and Cursor daily and noticed I was spending too much time setting up context files (CLAUDE.md) for each new project. So I built a reusable pack.\n\nWhat it includes:\n- 5 framework-specific CLAUDE.md templates (Next.js 15, FastAPI, Express+Prisma, Rust+Axum, React+Vite)\n- 10+ MCP server configurations ready to drop in\n- 8 Python slash commands (security audit, performance profiler, API docs generator, CI/CD pipeline, etc.)\n- Architecture Decision Record templates + VSCode/Cursor settings\n\nFree version on GitHub: https://github.com/chengjunhua465-create/ai-dev-workflow-pack\n\nPro version ($25 lifetime) adds everything plus custom template option.\n\nTech stack: Python, Node.js, JSON configs. Works with Claude Code, Cursor, and any AI coding tool that reads CLAUDE.md.\n\nBuilt with Hermes Agent from Hong Kong. Would love your feedback!"
+  }
+}
